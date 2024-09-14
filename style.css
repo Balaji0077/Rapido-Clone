@@ -9,6 +9,19 @@ body {
     margin: 0px;
 
 }
+.static {
+    position: fixed;
+    bottom: 35px;
+    right: 10px;
+    z-index: 1;
+}
+
+.static-image {
+    width: 110px;
+    border-radius: 20px;
+    border-bottom-right-radius: 5px;
+    background-color: transparent;
+}
 
 .rapido-web {
     display: flex;
